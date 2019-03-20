@@ -11,8 +11,8 @@ var inputFileName = process.argv[2];
 var outputFileName = process.argv[3];
 
 // set up the twilio client
-var accountSid = 'AC839dff9e31b315840894670488013f6d';
-var authToken = '04ecc867db7ca9d91c8ff2845d2166b2';
+var accountSid = 'TWILIO ACCOUNT ID';
+var authToken = 'TWILIO TOKEN';
 
 var twilio = require('twilio');
 var client = new twilio.LookupsClient(accountSid, authToken);
